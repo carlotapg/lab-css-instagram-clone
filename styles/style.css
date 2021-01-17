@@ -6,5 +6,92 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+
+  background: linear-gradient(180deg, rgba(28, 83, 128, 0.85) 45%, white 35%);
+}
+.main {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.left-block {
+  padding-top: 100px;
+}
+.right-block {
+  display: flex;
+  width: 70%;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  justify-content: space-between;
+}
+button {
+  height: 40px;
+  width: 100px;
+
+  font-weight: bold;
+  background: linear-gradient(
+    180deg,
+    rgba(185, 209, 230, 0.4),
+    rgba(55, 112, 158, 0.9)
+  );
+  border: 0.5px solid #1c5380;
+  border-radius: 3px;
+  color: white;
+  font-size: 13px;
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.text-section {
+  background: linear-gradient(
+    180deg,
+    white 50%,
+    rgba(255, 255, 255, 0.041) 50%
+  );
+  border-radius: 5px;
+  -webkit-box-shadow: -4px -9px 46px -18px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: -4px -9px 46px -18px rgba(0, 0, 0, 0.73);
+  box-shadow: -4px -9px 46px -18px rgba(0, 0, 0, 0.73);
+  padding: 5px 35px 35px 35px;
+  margin-top: 30px;
+}
+h1 {
+  color: #06365f;
+}
+p {
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.android {
+  padding-left: 20px;
+}
+
+footer {
+  float: inline-end;
+
+  margin-top: 40px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  flex-direction: row;
+}
+a {
+  text-decoration: none;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+li {
+  margin: 0px 10px 30px 10px;
 }
